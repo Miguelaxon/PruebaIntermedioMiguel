@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">About Me - Miguel Ahumada</string>
+    <string name="hola">Saludos people!!</string>
+    <string name="anos_exp">Años de experiencia</string>
+    <string name="nvMotiv">Nivel de Motivación</string>
+    <string name="extrAlta">Extremadamente Alta</string>
+    <string name="contacto">Contáctame Ahora</string>
+    <string name="suMens">Su Mensaje</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
