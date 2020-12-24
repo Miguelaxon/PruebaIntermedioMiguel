@@ -42,22 +42,22 @@ public class MessageFragment extends Fragment {
             public void onClick(View v) {
                 eBinding.btnFragment.setVisibility(View.GONE);
                 eBinding.msgHolder.setVisibility(View.VISIBLE);
-                eBinding.btnEnviar.setVisibility(View.VISIBLE);
+                eBinding.btnEnviarMail.setVisibility(View.VISIBLE);
             }
         });
 
-        eBinding.btnEnviar.setOnClickListener(new View.OnClickListener() {
+        eBinding.btnEnviarMail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sendMessage(eBinding.msgEditText.getText().toString());
+                sendMessageMail(eBinding.msgEditText.getText().toString());
                 eBinding.btnFragment.setVisibility(View.VISIBLE);
                 eBinding.msgHolder.setVisibility(View.GONE);
-                eBinding.btnEnviar.setVisibility(View.GONE);
+                eBinding.btnEnviarMail.setVisibility(View.GONE);
             }
         });
     }
 
-    public void sendMessage(String message){
+    public void sendMessageMail(String message){
         Intent intent = new Intent();
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_EMAIL,"hideki.ahumada@gmail.com");
