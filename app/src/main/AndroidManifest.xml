@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PruebaIntermedioMiguel">
+        android:theme="@style/Theme.PruebaIntermedioMiguel.OtherOption">
         <activity android:name=".ContactActivity"></activity>
         <activity
             android:name=".MainActivity"
@@ -20,7 +20,6 @@
             android:theme="@style/Theme.PruebaIntermedioMiguel.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -19,7 +19,8 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         eBinding = ActivityContactBinding.inflate(getLayoutInflater());
         setContentView(eBinding.getRoot());
-
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
         eBinding.imageViewLin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

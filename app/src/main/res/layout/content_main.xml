@@ -15,9 +15,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimaryDark"
-            android:padding="16dp"
-            android:text="@string/hola"
+            android:background="@color/red"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:text="@string/descripcion"
             android:textColor="@color/white"/>
         <TableLayout
             android:layout_width="match_parent"
@@ -34,22 +35,25 @@
                     android:text="@string/anos_exp"/>
                 <TextView
                     style="@style/CustomTable.Header"
-                    android:text="0.1"/>
+                    android:text="8 años"/>
             </TableRow>
             <TableRow>
                 <TextView
                     style="@style/CustomTable.Row"
                     android:text="@string/nvMotiv"/>
                 <TextView
-                    style="@style/CustomTable.Row"
+                    style="@style/CustomTable.Header"
                     android:text="@string/extrAlta"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/CustomTable.Row"
+                    android:text="@string/titulo"/>
+                <TextView
+                    style="@style/CustomTable.Header"
+                    android:text="@string/titulo00"/>
             </TableRow>
         </TableLayout>
     </LinearLayout>
-    <!--<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />-->
 
 </androidx.core.widget.NestedScrollView>
